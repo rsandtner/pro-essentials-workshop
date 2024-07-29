@@ -7,6 +7,5 @@ async function fetchData(): Promise<number> {
 
 const example = async () => {
   const data = await fetchData();
-
   type test = Expect<Equal<typeof data, number>>;
 };
